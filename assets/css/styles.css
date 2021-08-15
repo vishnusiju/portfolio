@@ -522,29 +522,42 @@ img{
 .skills__bootstrap{
     width: 60%;
 }
-.skills__python{
+/* Backend */
+.skills__node{
     width: 70%;
 }
-.skills__cshap{
-    width: 40%;
-}
-.skills__nodejs{
-    width: 30%;
-}
-.skills__django{
+.skills__express{
     width: 60%;
 }
-
-.skills__git{
+/* .skills__nodejs{
     width: 30%;
+} */
+.skills__django{
+    width: 50%;
+}
+
+/* Database */
+.skills__sql{
+    width: 70%;
+}
+.skills__mongodb{
+    width: 60%;
+}
+.skills__postgre{
+    width: 40%;
+}
+
+/* Tools */
+.skills__git{
+    width: 50%;
 }
 .skills__github{
     width: 70%;
 }
 .skills__firebase{
-    width: 60%;
+    width: 50%;
 }
-.skills__html{
+.skills__vscode{
     width: 80%;
 }
 
