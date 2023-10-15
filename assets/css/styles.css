@@ -300,7 +300,7 @@ img{
     fill: var(--first-color);
 }
 .home__blob-img{
-    width: 170px;
+    width: 100%;
 }
 
 .home__data{
@@ -403,9 +403,17 @@ img{
     align-self: center;
 }
 
+.about__description_main{
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
 .about__description{
-    text-align: center;
-    margin-bottom: var(--mb-2-5);
+    /* text-align: center; */
+    /* margin-bottom: var(--mb-2-5); */
+    text-align: justify;
+    margin-bottom: 21px;
 }
 
 .about__info{
@@ -517,8 +525,13 @@ img{
     width: 80%;
 }
 .skills__react{
-    width: 70%;
+    width: 50%;
 }
+
+.skills__angular {
+    width: 90%;
+}
+
 .skills__bootstrap{
     width: 60%;
 }
@@ -549,7 +562,7 @@ img{
 
 /* Tools */
 .skills__git{
-    width: 50%;
+    width: 70%;
 }
 .skills__github{
     width: 70%;
@@ -559,6 +572,9 @@ img{
 }
 .skills__vscode{
     width: 80%;
+}
+.skills__jira{
+    width: 90%;
 }
 
 .skills__close .skills__list{
@@ -644,6 +660,7 @@ img{
 .qualification__button .qualification__active{
     color: var(--first-color);
 }
+
 
 /*==================== SERVICES ====================*/
 .services__container{
@@ -1115,7 +1132,7 @@ img{
     .project__container,
     .contact__container,
     .footer__container{
-        grid-template-columns: repeat(2, 2fr);
+        grid-template-columns: repeat(2fr);
     }
 
     .qualification__sections{
@@ -1202,7 +1219,8 @@ img{
     }
 
     .about__description{
-        text-align: initial;
+        /* text-align: initial; */
+        text-align: justify;
     }
     .about__info{
         justify-content: space-between;
@@ -1220,7 +1238,7 @@ img{
     }
 
     .qualification__sections{
-        grid-template-columns: .5fr;
+        grid-template-columns: 1fr;
     }
 
     .services__container{
@@ -1277,6 +1295,9 @@ img{
     .footer__links{
         flex-direction: row;
         column-gap: 2rem;
+        display: flow;
+        line-height: 2em;
+        margin: 0 10%;
     }
 
     .footer__social{
